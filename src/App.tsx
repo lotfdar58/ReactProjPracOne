@@ -9,7 +9,6 @@ const  App = () => {
   const isLoggedIn: boolean = storedIsLoggedIn ? JSON.parse(storedIsLoggedIn): false;
   return (
     <ThemeContextProvider>
-      <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
@@ -18,7 +17,6 @@ const  App = () => {
           />
           <Route path="/*" element={<Navigate to="/login" />} />
         </Routes>
-      </BrowserRouter>
     </ThemeContextProvider>
   );
 }

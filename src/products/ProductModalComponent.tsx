@@ -43,14 +43,14 @@ const ProductModalFormComponent: React.FC<ProductModalType> = ({ isOpen, onClose
             <Typography variant="h5" sx={{mb:2}} mt={2}>Product Detail</Typography>
             <form onSubmit={handleFormSubmit}>
             <Grid container spacing={2}>
-                <Grid item xs={12}>
-                    <TextField label="Id" defaultValue={selectedRow?.id} fullWidth type="number" disabled/>
+                <Grid item xs={4} md={6} lg={8}>
+                    <TextField size='small' label="Id" defaultValue={selectedRow?.id} fullWidth type="number" disabled/>
                 </Grid>
-                <Grid item xs={12}>
-                    <TextField label="Name" defaultValue={selectedRow?.name} fullWidth disabled/>
+                <Grid item  xs={4} md={6} lg={8}>
+                    <TextField label="Name" size="small" defaultValue={selectedRow?.name} fullWidth disabled/>
                 </Grid>
-                <Grid item xs={12}>
-                    <TextField label="Age" defaultValue={selectedRow?.email} fullWidth disabled/>
+                <Grid item xs={4} md={6} lg={8}>
+                    <TextField label="Age" size="small" defaultValue={selectedRow?.email} fullWidth disabled/>
                 </Grid>
                 <Grid item xs={12}>
                     <Button

@@ -17,6 +17,16 @@ https://stackoverflow.com/questions/69449055/in-mui-how-do-i-use-theme-values-in
 
 https://mui.com/system/getting-started/the-sx-prop/
 
+************ Tools to generate theme object and customized colors:
+
+https://zenoo.github.io/mui-theme-creator/
+
+https://muhimasri.com/blogs/how-to-customize-theme-and-colors-in-material-ui/
+
+https://codesandbox.io/p/sandbox/mui-custom-colors-x5cget?file=%2Fsrc%2Fcolors.js
+
+
+
 
  <Box  className="headerContainer"
                 sx={{   
